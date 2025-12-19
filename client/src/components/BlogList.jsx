@@ -5,7 +5,7 @@ import BlogCard from './BlogCard'
 import { useAppContext } from '../context/AppContext'
 
 
-function Bloglist() {
+function BlogList() {
 
     const[menu,setmenu]=useState('All')
     const { blogs, input } = useAppContext()
@@ -46,4 +46,4 @@ function Bloglist() {
   )
 }
 
-export default Bloglist
+export default BlogList
