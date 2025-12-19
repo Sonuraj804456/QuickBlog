@@ -188,8 +188,8 @@ const AddBlog = () => {
         >
           <option>Startup</option>
           <option>Technology</option>
-          <option>AI</option>
-          <option>Business</option>
+          <option>Lifestyle</option>
+          <option>Finance</option>
         </select>
 
         {/* Publish */}
